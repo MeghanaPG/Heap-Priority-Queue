@@ -5,6 +5,7 @@ class MedianFinder:
     def __init__(self):
     # two heaps, large and small -> minHeap and maxHeap respectively 
     # heaps should be equal size 
+    # Max heap and then min heap
         self.small, self.large = [], []
         
 
