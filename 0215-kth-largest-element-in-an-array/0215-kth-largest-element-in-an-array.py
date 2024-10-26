@@ -6,5 +6,5 @@ class Solution:
         heapq.heapify(self.maxHeap)
 
         for _ in range(k):
-            kth_largest = -heapq.heappop(self.maxHeap)
+            kth_largest = -1 * heapq.heappop(self.maxHeap)
         return kth_largest
